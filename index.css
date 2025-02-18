@@ -27,6 +27,7 @@ html,body{
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 20px;
+    box-shadow: 0 5px #009ce7;
 }
 
 button{
@@ -38,14 +39,19 @@ button{
     box-shadow: 0 5px 0 #75a7bc;
     font-size: 20px;
     font-weight: 600;
+    cursor:pointer;
 }
 
 input{
-    width: 48vh;
+    width: 47vh;
     height: 10vh;
     border: none;
     background-color: #79a7bc;
     box-shadow: 0 -5px 0 #628697;
+    font-size: 25px;
+    color: antiquewhite;
+    font-weight: 600;
+    padding-left: 10px;
 }
 
 #C{
